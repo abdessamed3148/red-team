@@ -1,0 +1,9 @@
+# Ignore cloned tool repositories (too large for GitHub)
+# Use TOOL_CATALOG.md for the full list and clone URLs
+pentest/tools/*/
+!pentest/tools/custom-scripts/
+!pentest/tools/configs/
+!pentest/tools/bin/
+
+# Claude workspace
+.claude/
